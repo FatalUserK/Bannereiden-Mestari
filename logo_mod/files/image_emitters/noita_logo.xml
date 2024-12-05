@@ -1,0 +1,56 @@
+<Entity>
+
+  	<ParticleEmitterComponent 
+		emitted_material_name="rainbow_dust"
+		gravity.y="0.1"
+		lifetime_min="1"
+		lifetime_max="1"
+		count_min="15"
+		count_max="15"
+		render_on_grid="0"
+		fade_based_on_lifetime="1"
+		area_circle_radius.min="0"
+		area_circle_radius.max="0"
+		cosmetic_force_create="1"
+		airflow_force="0.13"
+		airflow_time="0.12"
+		airflow_scale="0.05"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		create_real_particles="0"
+		emit_cosmetic_particles="1"
+		image_animation_file="data/biome_impl/trailer/logo_emitter2.png"
+		image_animation_speed="15"
+		image_animation_loop="1"
+		is_emitting="1" >
+	</ParticleEmitterComponent>
+
+    <ParticleEmitterComponent 
+        _tags="enabled_in_world,enabled_in_hand,fire"
+		image_animation_file="mods/logo_mod/files/logo_emitter.png"
+		emitted_material_name="rainbow_glow"
+        x_pos_offset_min="-1"
+        x_pos_offset_max="1"
+        y_pos_offset_min="-1"
+        y_pos_offset_max="1"
+        x_vel_min="-2"
+        x_vel_max="2"
+        y_vel_min="-20"
+        y_vel_max="-10"
+		count_min="30"
+		count_max="35" 
+        lifetime_min="1"
+        lifetime_max="2"
+        create_real_particles="1"
+        emit_cosmetic_particles="0"
+        emission_interval_min_frames="0"
+        emission_interval_max_frames="1"
+        fire_cells_dont_ignite_damagemodel="1" >
+    </ParticleEmitterComponent>
+
+	<LifetimeComponent
+		lifetime="3600" >
+	</LifetimeComponent>
+
+</Entity>
+

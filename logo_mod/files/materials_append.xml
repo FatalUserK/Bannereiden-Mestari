@@ -1,0 +1,147 @@
+<Materials>
+
+ <CellData
+	name="rainbow_dust"
+	ui_name="rainbow"
+  	tags=""
+	burnable="0"
+	density="5"
+	cell_type="liquid"
+	wang_color="A0fff4fe"
+	generates_smoke="0"
+	liquid_gravity="0.8"
+	liquid_sand="0"
+	gfx_glow="0"
+	on_fire="0"
+	requires_oxygen="0"
+	lifetime="5"
+	>
+	<Graphics 
+		texture_file="mods/logo_mod/files/materials_gfx/rainbow.png" 
+		color="A0E8BD5C" >
+    </Graphics>
+	<ParticleEffect
+		vel.y="2.86"
+		vel_random.min_x="-6"
+		vel_random.max_x="6"
+		vel_random.min_y="-2.9"
+		vel_random.max_y="3.2"
+		render_on_grid="1"
+		probability="0.6"
+		count.min="0"
+		count.max="1"
+	>
+	</ParticleEffect>
+  </CellData>
+  
+  <CellData
+	name="rainbow_glow"
+	ui_name="rainbow"
+  	tags=""
+	burnable="0"  
+	density="1"  
+	cell_type="fire" 
+	wang_color="A0fdf4fe"
+	generates_smoke="0"
+	liquid_gravity="0.8"
+	liquid_sand="0"
+	gfx_glow="1"
+	on_fire="0"
+	requires_oxygen="0"
+	lifetime="5"
+	>
+	<Graphics 
+		texture_file="mods/logo_mod/files/materials_gfx/rainbow.png" 
+		color="A0E8BD5C" >
+    </Graphics>
+	<ParticleEffect
+		vel.y="2.86"
+		vel_random.min_x="-6"
+		vel_random.max_x="6"
+		vel_random.min_y="-2.9"
+		vel_random.max_y="3.2"
+		render_on_grid="1"
+		probability="0.6"
+		count.min="0"
+		count.max="1"
+	>
+	</ParticleEffect>
+  </CellData>
+  
+  <CellData
+	name="Noita_Fire"
+	ui_name="fire"
+  	tags=""
+	burnable="0"  
+	density="1"  
+	cell_type="fire" 
+	wang_color="A0fdf4ee"
+	generates_smoke="0"
+	liquid_gravity="0.8"
+	liquid_sand="0"
+	gfx_glow="0"
+	on_fire="0"
+	requires_oxygen="0"
+	lifetime="5"
+	>
+	<Graphics 
+		texture_file="mods/logo_mod/files/materials_gfx/Noita_gfx.png" 
+		color="A0E8BD5C" >
+    </Graphics>
+	<ParticleEffect
+		vel.y="2.86"
+		vel_random.min_x="-6"
+		vel_random.max_x="6"
+		vel_random.min_y="-2.9"
+		vel_random.max_y="3.2"
+		render_on_grid="1"
+		probability="0.6"
+		count.min="0"
+		count.max="1"
+	>
+	</ParticleEffect>
+  </CellData>
+  
+  <CellData
+	name="creepy_logo_rainbow"
+	ui_name="$mat_rainbow"
+	density="1"
+	cell_type="liquid"
+	wang_color="80FFA3DD"
+	generates_smoke="0"
+	liquid_gravity="0.8"
+	liquid_sand="0"
+	gfx_glow="100"
+	on_fire="0"
+	requires_oxygen="0"
+	liquid_stains="1"
+	liquid_sprite_stain_shaken_drop_chance="5"
+	audio_materialaudio_type="MAGICAL" 
+	show_in_creative_mode="1" 
+	>
+
+	<Graphics 
+	texture_file="data/materials_gfx/rainbow.png" 
+	color="80FFA2CD"
+	fire_colors_index="2" >
+    </Graphics>
+	<ParticleEffect
+		vel.y="2.86"
+		vel_random.min_x="-6"
+		vel_random.max_x="6"
+		vel_random.min_y="-2.9"
+		vel_random.max_y="3.2"
+		render_on_grid="1"
+		probability="0.6"
+		count.min="0"
+		count.max="1"
+	>
+	</ParticleEffect>
+  </CellData>
+  
+	<Reaction probability="99"
+		input_cell1="creepy_logo_rainbow" input_cell2="air"
+		output_cell1="creepy_logo_rainbow" output_cell2="creepy_logo_rainbow"
+	></Reaction>
+
+</Materials>
