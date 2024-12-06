@@ -8,7 +8,7 @@ Well now you've found it.
 
 Making a banner:
 
-Use noita_dev.exe and run "logo mod" (Most other mods should be compatible if you so desire)
+Use noita_dev.exe and run "Bannereiden Mestari" (Most other mods should be compatible if you so desire)
 
 F5 to enable debug mode. Enter/WASD to fly around. F8 to remove the Fog Of War.
 
@@ -32,9 +32,9 @@ The files:
 
 Make sure you have the proper mod setup.
 
-It should be "Noita/mods/logo_mod/mod.xml"
+It should be "Noita/mods/Bannereiden-Mestari/mod.xml"
 
-"logo_mod/files" will contain most of the assests you/I have made. Keep things as organized in here as possible. You'll thank yourself later.
+"Bannereiden-Mestari/files" will contain most of the assests you/I have made. Keep things as organized in here as possible. You'll thank yourself later.
 
 Most of the assest in here are general images/props I have made.
 
@@ -44,7 +44,7 @@ Most of the assest in here are general images/props I have made.
 
 
 
-"logo_mod/data" will contain the new altar scripts, enemies we have modified (likely to not attack us), modified altar/altar torches, etc.
+"Bannereiden-Mestari/data" will contain the new altar scripts, enemies we have modified (likely to not attack us), modified altar/altar torches, etc.
 
 "data/entities" should be fairly self explanatory. This is all the overwritten entities. Mostly focus on the animals/altar. Possibly make backups of creations you've liked.
 

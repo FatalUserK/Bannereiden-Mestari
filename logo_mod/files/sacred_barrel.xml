@@ -1,5 +1,0 @@
-<Entity tags="sacred_barrel">
-	<LifetimeComponent
-		lifetime="300">
-	</LifetimeComponent>
-</Entity>
